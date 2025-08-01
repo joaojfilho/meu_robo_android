@@ -10,7 +10,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MeuRobo">
+        android:theme="@style/Theme.MeuRObo">
+        <activity
+            android:name=".RespostaActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
